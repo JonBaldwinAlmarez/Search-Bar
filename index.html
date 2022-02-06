@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Search Bar</title>
+</head>
+<body>
+    <div class="seach-wrapper">Search Bar</div>
+    <input type="search" id="search" data-search>
+
+    <div class="user-cards" data-user-cards-container>
+        <!--data-user-template is the name of the template-->
+        <!--To displate data-->
+        <template data-user-template> 
+            <div class="card">
+                <div class="header" data-header> NameHere</div>
+                <div class="body" data-body>HereBody</div>
+            </div>
+        </template>
+
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
